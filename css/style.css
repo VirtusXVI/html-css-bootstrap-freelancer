@@ -10,6 +10,16 @@ img{
     border-radius: 10px;
 }
 
+li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
 /* COMMON */
 
 .ms_elements{
