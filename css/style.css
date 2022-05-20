@@ -5,6 +5,11 @@ header{
     background-color: #2c3e50;
 }
 
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
 /* COMMON */
 
 .ms_elements{
@@ -12,6 +17,20 @@ header{
     font-weight: bold;
     padding: 2rem 0;
     color: white;
+}
+
+.ms_title{
+    color: white;
+    font-weight: bold;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.ms_stars_line{
+    content: "";
+    background-color: white;
+    height: 3px;
+    width: 20%;
 }
 
 /* MAIN */
@@ -26,13 +45,29 @@ header{
     
 }
 
-.ms_start_image{
+.ms_avatar_image{
+    height: 300px;
+    margin: 2rem 0;
+}
 
-    background-color: lightcoral;
+.ms_stars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
 
-    /* TEST */
+.ms_star{
+    padding: 0 1rem;
+    font-size: 2rem;
+}
 
-    height: 500px;
+.ms_stars_black{
+    background-color: black;
+}
+
+.ms_work{
+    text-align: center;
 }
 
 main section{
@@ -44,14 +79,15 @@ main section{
     text-align: center;
 }
 
-.row-col-6 .col-12{
-    background-color: lightcoral;
-}
-
 .ms_smaller_container{
     width: 50%;
 }
 
+.ms_input_decorations{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
 /* FOOTER */
 
 .ms_info_background{
